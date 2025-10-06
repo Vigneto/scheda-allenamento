@@ -26,8 +26,8 @@ main, header, footer {
 h1, h2, h3 {
   color: #fff;
 }
-p, li {
-  color: #f0f0f0;
+p, li {    /* colore paragrafi */
+  color: #c0c0c0;
 }
 
 
@@ -70,7 +70,7 @@ max-width: 900px;
 margin: 20px auto;
 padding: 0 15px;
 }
-table {
+table {    /* tabella */
 width: 100%;
 border-collapse: collapse;
 margin-top: 10px;
@@ -79,7 +79,7 @@ th, td {
 border: 1px solid #ddd;
 padding: 8px;
 }
-th { background: #f0f0f0; }
+th { background: #c0c0c0; }
 .gallery {
 display: flex;
 gap: 10px;
