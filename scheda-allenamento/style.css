@@ -16,6 +16,35 @@ padding: 0;
 display: flex;
 gap: 10px;
 }
+footer {
+  background-color: #222;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+  margin-top: 40px;
+}
+.footer-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.footer-links {
+  margin-bottom: 10px;
+}
+.footer-links a {
+  color: #fff;
+  margin: 0 10px;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+.footer-links a:hover {
+  color: #00bfff;
+}
+.footer-info p {
+  font-size: 14px;
+  opacity: 0.8;
+  margin: 0;
+}
 .menu li { display: inline; }
 .menu a {
 text-decoration: none;
