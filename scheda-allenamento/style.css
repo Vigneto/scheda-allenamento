@@ -4,16 +4,23 @@
 body {
   margin: 0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+  /* ✅ Immagine di sfondo globale */
   background-image: url("https://png.pngtree.com/background/20230618/original/pngtree-orange-and-black-gradient-background-with-3d-rendered-abstract-waves-picture-image_3711513.jpg");
   background-size: cover;        /* Copre tutto lo schermo */
   background-position: center;   /* Centra l'immagine */
   background-repeat: no-repeat;  /* Evita ripetizioni */
-  background-attachment: fixed;  /* Effetto "parallax" fisso */  min-height: 100vh;
+  background-attachment: fixed;  /* Effetto parallax */
+  
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   position: relative;
   color: #fff;
 }
+
+/* ❌ Eliminato lo sfondo a pois */
+
 
 
 body::before {
